@@ -1,9 +1,15 @@
 #Normal programme
-s = [1,5,8,4,20,23}
+s = []
+for i in range(5)
+e = int(input(enter the value of the number"))
+s.append(e)
 print(max(s)*max(s)
 
 #Using function
 def maxsaquare(s):
-    return(max(s)*max(s))
-result = maxsquare([1,5,8,4,20,23])
-print(result)
+    for i in range(5):
+         e = int(input(enter the value of the number"))
+         s.append(e)
+print(max(s)*max(s))
+maxsquare(s)
+
