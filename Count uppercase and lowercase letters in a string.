@@ -1,0 +1,26 @@
+#Normal programme
+s = "Shiva"
+u =0 #uppercase
+v=0  #lowercase
+for c in range(0,len(s)):
+    if s[c].isupper():
+        u = u+1 
+    else:
+        v = v+1 
+print(u)
+print(v)
+
+
+#Using functions
+def Upperlower(s):
+u =0
+v=0
+for c in range(0,len(s)):
+    if s[c].isupper():
+        u = u+1 
+    else:
+        v = v+1 
+   return(u)
+   return(v)
+result = Upperlower("Shiva")
+print(result)
