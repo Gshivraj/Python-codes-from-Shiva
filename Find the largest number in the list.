@@ -1,7 +1,11 @@
 # Regular programme
-S = [5,8,2,9,1]
+S = []
 p = max(S)
 v = []
+n = int(input("enter the numbers")
+for i in range(n):
+    g = int(input("enter the values")
+    S.append(g)
 for i in S:
     e = p-i
     v.append(e)
@@ -13,11 +17,12 @@ print("the second largest number is", max(v))
 
 #Using function
 def maxmin(s):
-    p = max(s)
-    v = []
+   n = int(input("enter the numbers")
+for i in range(n):
+    g = int(input("enter the values")
+    s.append(g)
     for i in s:
         e = p-i
         v.append(e)
-        return max(v)
-result = maxmin([1,5,8,3,9,0,5])
-print(result)
+        print(max(v))
+maxmin(s)
