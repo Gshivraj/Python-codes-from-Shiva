@@ -1,5 +1,5 @@
 #Normal programme
-s = "Shiva"
+s = input("enter the string")
 u =0 #uppercase
 v=0  #lowercase
 for c in range(0,len(s)):
@@ -20,7 +20,7 @@ for c in range(0,len(s)):
         u = u+1 
     else:
         v = v+1 
-   return(u)
-   return(v)
-result = Upperlower("Shiva")
-print(result)
+   print(u)
+   print(v
+s = input("enter the string")
+def Upperlower(s)
