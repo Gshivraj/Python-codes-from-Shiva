@@ -21,6 +21,6 @@ print("the number is not prime")
    return "prime number"
 else:
    return "not a prime number"
-result = prime(91)
-print(result)
+n = int(input("enter the value of n")
+prime(n)
     
