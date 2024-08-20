@@ -1,0 +1,23 @@
+# Regular programme
+S = [5,8,2,9,1]
+p = max(S)
+v = []
+for i in S:
+    e = p-i
+    v.append(e)
+
+print("the second largest number is", max(v))
+
+
+
+
+#Using function
+def maxmin(s):
+    p = max(s)
+    v = []
+    for i in s:
+        e = p-i
+        v.append(e)
+        return max(v)
+result = maxmin([1,5,8,3,9,0,5])
+print(result)
