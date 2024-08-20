@@ -2,8 +2,12 @@
 
 Regular programme
 
-lsts = [1,5,8,9,3,3,2,8]
+lsts = []
 count = 0
+n = int(input("enter the value of n")
+for i in range(n):
+    e = int(input("enter the values of list")
+    lsts.append(e)
 for i in lsts:
     if i ==3
     count = count+1
@@ -13,15 +17,18 @@ print("the number of times the number 3 occured is " count)
 
 
 
-# Same programme using function
+# Using function
 
 def occurrence(lsts):
     count = 0
-    for i in lsts:
+n = int(input("enter the value of n")
+for i in range(n):
+    e = int(input("enter the values of list")
+    lsts.append(e)
+for i in lsts:
     if i ==3:
         count = count+1
-    return count
+    print(count)
 
-result = occurence([1,5,8,9,3,3,2,8]
-print(result)
+occurrence(lsts)
     
